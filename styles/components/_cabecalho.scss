@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+.cabecalho{
+    background-color: $roxo;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+    height: 60px;
+    align-items: center;
+    .cabecalho--titulo{
+        color: $branco;
+        font-weight: $texto-fino;
+        font-size: $tamanho-do-texto;
+    }
+    .cabecalho--menu{
+        .menu--lista{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            .lista--item{
+                list-style-type: none;
+                .item--link{
+                    text-decoration: none;
+                    color:$branco;
+                    text-transform: uppercase;
+                    font-size: $tamanho-do-texto/2.5;
+                }
+                .item--link:hover{
+                    color: $azul-claro;
+                }
+            }
+        }
+    }
+}

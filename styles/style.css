@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 html, body {
   font-family: "Abhaya Libre", serif;
   margin: 0;
@@ -51,4 +52,20 @@ html, body {
   .cabecalho .cabecalho--menu .menu--lista .lista--item .item--link {
     font-size: 1.2rem;
   }
+}
+.rodape {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  gap: 36px;
+  padding: 0 24px;
+  align-items: center;
+}
+.rodape .rodape--item {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.rodape .rodape--item::after {
+  content: "&";
 }/*# sourceMappingURL=style.css.map */

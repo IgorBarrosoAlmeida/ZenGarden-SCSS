@@ -22,7 +22,7 @@
                     text-decoration: none;
                     color:$branco;
                     text-transform: uppercase;
-                    font-size: $tamanho-do-texto/2;
+                    font-size: calc($tamanho-do-texto/2);
                 }
                 .item--link:hover{
                     color: $azul-claro;
@@ -36,14 +36,14 @@
         padding: 0 10px;
         justify-content: space-around;
         .cabecalho--titulo{
-            font-size: $tamanho-do-texto/1.25;
+            font-size: calc($tamanho-do-texto/1.25);
         }
         .cabecalho--menu{
             .menu--lista{
                 gap: 10px;
                 .lista--item{
                     .item--link{
-                        font-size: $tamanho-do-texto/2.5;
+                        font-size: calc($tamanho-do-texto/2.5);
                     }
                 }
             }

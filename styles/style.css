@@ -31,8 +31,24 @@ html, body {
   text-decoration: none;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .cabecalho .cabecalho--menu .menu--lista .lista--item .item--link:hover {
   color: #BAF0FF;
+}
+
+@media screen and (max-width: 480px) {
+  .cabecalho {
+    padding: 0 10px;
+    justify-content: space-around;
+  }
+  .cabecalho .cabecalho--titulo {
+    font-size: 2.4rem;
+  }
+  .cabecalho .cabecalho--menu .menu--lista {
+    gap: 10px;
+  }
+  .cabecalho .cabecalho--menu .menu--lista .lista--item .item--link {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -54,7 +54,7 @@ html, body {
   }
 }
 .rodape {
-  background-color: black;
+  background-color: #535A73;
   height: 60px;
   display: flex;
   gap: 36px;
@@ -66,6 +66,8 @@ html, body {
   color: #FFFFFF;
   font-size: 2rem;
 }
-.rodape .rodape--item::after {
-  content: "&";
+.rodape .rodape--barra {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

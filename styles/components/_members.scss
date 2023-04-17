@@ -1,17 +1,44 @@
+@import './../abstract/variaveis';
+
+@mixin edita_redes_sociais {
+    img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    h2 {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+}
+
 .membros {
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10%;
 
     .card {
-        width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        min-width: 230px;
+        max-width: 280px;
 
         .card--img {
             width: 100%;
             border-radius: 100%;
+        }
+
+        .card--redes_sociais {
+            .redes_sociais--Instagram {
+                @include edita_redes_sociais();
+            }
+            .redes_sociais--github {
+                @include edita_redes_sociais();
+            }
         }
     }
 }

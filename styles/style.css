@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 html, body {
   font-family: "Abhaya Libre", serif;
   margin: 0;
@@ -169,16 +170,38 @@ html, body {
 
 .membros {
   width: 70%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 10%;
 }
 .membros .card {
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 230px;
+  max-width: 280px;
 }
 .membros .card .card--img {
   width: 100%;
   border-radius: 100%;
+}
+.membros .card .card--redes_sociais .redes_sociais--Instagram img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.membros .card .card--redes_sociais .redes_sociais--Instagram h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.membros .card .card--redes_sociais .redes_sociais--github img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.membros .card .card--redes_sociais .redes_sociais--github h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */

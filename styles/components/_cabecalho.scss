@@ -1,4 +1,5 @@
 @import '../abstract/variaveis';
+
 .cabecalho{
     background-color: $roxo;
     display: flex;
@@ -6,11 +7,17 @@
     padding: 0 4em;
     height: 60px;
     align-items: center;
+
+    .cabecalho--img {
+        width: 65px;
+    }
+
     .cabecalho--titulo{
         color: $branco;
         font-weight: $texto-fino;
         font-size: $tamanho-do-texto;
     }
+
     .cabecalho--menu{
         .menu--lista{
             display: flex;
@@ -35,9 +42,11 @@
     .cabecalho{
         padding: 0 10px;
         justify-content: space-around;
+
         .cabecalho--titulo{
             font-size: calc($tamanho-do-texto/1.25);
         }
+
         .cabecalho--menu{
             .menu--lista{
                 gap: 10px;

@@ -16,6 +16,9 @@ html, body {
   height: 60px;
   align-items: center;
 }
+.cabecalho .cabecalho--img {
+  width: 65px;
+}
 .cabecalho .cabecalho--titulo {
   color: #FFFFFF;
   font-weight: 100;

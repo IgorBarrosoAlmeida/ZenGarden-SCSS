@@ -5,20 +5,17 @@
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100%;
-    min-height: 39vw;
+    height: 83vh;
     position: relative;
-
     .banner-summary {
         position: absolute;
         top: 10vw;
         left: 20vw;
-
         .banner {
             .banner--titulo {
                 color: $roxo;
                 font-size: calc($tamanho-do-texto*1.5);
             }
-
             .banner--subtitulo {
                 color: $roxo;
                 font-size: calc($tamanho-do-texto);
@@ -28,12 +25,10 @@
         .summary {
             margin-top: 1rem;
             max-width: 500px;
-
             .summary--paragrafo {
                 color: $roxo;
                 font-size: calc($tamanho-do-texto/2);
                 font-weight: 100;
-
                 .summary--link {
                     text-decoration: none;
                     color: $roxo;
@@ -43,49 +38,40 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .intro {
+        background:url(../../imagens/banner-tablet-celular2.png);
+        height: 85vh;
         .banner-summary {
+            position: static;
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            align-items: center;
             .banner {
-                .banner--titulo {
-                    font-size: $tamanho-do-texto;
-                }
-                .banner--subtitulo {
-                    font-size: calc($tamanho-do-texto/1.5);
-                }
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 80px;
             }
             .summary {
-                max-width: 300px;
+                padding: 10px;
                 .summary--paragrafo {
-                    font-size: calc($tamanho-do-texto/3);
+                    font-size: $tamanho-do-texto/1.75;
                 }
             }
-        }
-        .banner--titulo {
-            font-size: 20px;
-        }
-        .banner--subtitulo {
-            font-size: calc($tamanho-do-texto);
         }
     }
 }
 
 @media screen and (max-width: 490px) {
     .intro {
+        background-color: #F0E4F2;
         .banner-summary {
+            gap: 40px;
             .banner {
-                .banner--titulo {
-                    font-size: $tamanho-do-texto/1.5;
-                }
-                .banner--subtitulo {
-                    font-size: calc($tamanho-do-texto/2.75);
-                }
-            }
-            .summary {
-                max-width: 200px;
-                .summary--paragrafo {
-                    font-size: calc($tamanho-do-texto/4);
-                }
+                gap: 40px;
             }
         }
     }

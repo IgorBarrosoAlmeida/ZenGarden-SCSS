@@ -62,21 +62,39 @@
         </nav>
     </header>
     <section class="intro" id="zen-intro">
-        <div role="banner">
-            <h1>CSS Zen Garden</h1>
-            <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
-        </div>
-
-        <div class="summary" id="zen-summary" role="article">
-            <p class="summary--paragrafo">A demonstration of what can be accomplished through <abbr
-                    title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to
-                load it into this page.</p>
-            <p class="summary--paragrafo">Download the example <a class="summary--link" href="/examples/index"
-                    title="This page's source HTML code, not to be modified.">html file</a> and <a class="summary--link"
-                    href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a>
-            </p>
+        <div class="banner-summary">
+            <div class="banner" role="banner">
+                <h1 class="banner--titulo">CSS Zen Garden</h1>
+                <h2 class="banner--subtitulo">The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+            </div>
+            <div class="summary" id="zen-summary" role="article">
+                <p class="summary--paragrafo">A demonstration of what can be accomplished through <abbr
+                        title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to
+                    load it into this page.</p>
+                <p class="summary--paragrafo">Download the example <a class="summary--link" href="/examples/index"
+                        title="This page's source HTML code, not to be modified.">html file</a> and <a class="summary--link"
+                        href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a>
+                </p>
+            </div>
         </div>
     </section>
+    <footer class="rodape">
+        <a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML"
+            class="zen-validate-html rodape--item">HTML</a>
+            <p class="rodape--barra">❘</p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"
+            title="Check the validity of this site&#8217;s CSS" class="zen-validate-css rodape--item">CSS</a>
+            <p class="rodape--barra">❘</p>
+        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
+            title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike."
+            class="zen-license rodape--item">CC</a>
+            <p class="rodape--barra">❘</p>
+        <a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site"
+            class="zen-accessibility rodape--item">A11y</a>
+            <p class="rodape--barra">❘</p>
+        <a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github"
+            class="zen-github rodape--item">GH</a>
+    </footer>
     <div class="page-wrapper">
         
             <section class="escolher-novo-nome" id="zen-intro">

@@ -90,6 +90,71 @@ html, body {
   }
 }
 .intro {
-  background: url(../../imagens/banner.png) 27% center no-repeat;
-  height: 100vh;
+  background-image: url(../../imagens/banner2.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  min-height: 39vw;
+  position: relative;
+}
+.intro .banner-summary {
+  position: absolute;
+  top: 10vw;
+  left: 20vw;
+}
+.intro .banner-summary .banner .banner--titulo {
+  color: #535A73;
+  font-size: 4.5rem;
+}
+.intro .banner-summary .banner .banner--subtitulo {
+  color: #535A73;
+  font-size: 3rem;
+}
+.intro .banner-summary .summary {
+  margin-top: 1rem;
+  max-width: 500px;
+}
+.intro .banner-summary .summary .summary--paragrafo {
+  color: #535A73;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.intro .banner-summary .summary .summary--paragrafo .summary--link {
+  text-decoration: none;
+  color: #535A73;
+}
+
+@media screen and (max-width: 800px) {
+  .intro .banner-summary .banner .banner--titulo {
+    font-size: 3rem;
+  }
+  .intro .banner-summary .banner .banner--subtitulo {
+    font-size: 2rem;
+  }
+  .intro .banner-summary .summary {
+    max-width: 300px;
+  }
+  .intro .banner-summary .summary .summary--paragrafo {
+    font-size: 1rem;
+  }
+  .intro .banner--titulo {
+    font-size: 20px;
+  }
+  .intro .banner--subtitulo {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  .intro .banner-summary .banner .banner--titulo {
+    font-size: 2rem;
+  }
+  .intro .banner-summary .banner .banner--subtitulo {
+    font-size: 1.0909090909rem;
+  }
+  .intro .banner-summary .summary {
+    max-width: 200px;
+  }
+  .intro .banner-summary .summary .summary--paragrafo {
+    font-size: 0.75rem;
+  }
 }/*# sourceMappingURL=style.css.map */

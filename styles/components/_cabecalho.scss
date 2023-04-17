@@ -43,7 +43,7 @@
                 gap: 10px;
                 .lista--item{
                     .item--link{
-                        font-size: calc($tamanho-do-texto/2.5);
+                        font-size: $tamanho-do-texto/2.5;
                     }
                 }
             }

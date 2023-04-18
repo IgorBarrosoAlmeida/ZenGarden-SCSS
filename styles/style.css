@@ -99,7 +99,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
-  min-height: 39vw;
+  height: 83vh;
   position: relative;
 }
 .intro .banner-summary {
@@ -129,38 +129,41 @@ html, body {
   color: #535A73;
 }
 
-@media screen and (max-width: 800px) {
-  .intro .banner-summary .banner .banner--titulo {
-    font-size: 3rem;
+@media screen and (max-width: 900px) {
+  .intro {
+    background: url(../../imagens/banner-tablet-celular2.png);
+    height: 85vh;
   }
-  .intro .banner-summary .banner .banner--subtitulo {
-    font-size: 2rem;
+  .intro .banner-summary {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+  }
+  .intro .banner-summary .banner {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 80px;
   }
   .intro .banner-summary .summary {
-    max-width: 300px;
+    padding: 10px;
   }
   .intro .banner-summary .summary .summary--paragrafo {
-    font-size: 1rem;
-  }
-  .intro .banner--titulo {
-    font-size: 20px;
-  }
-  .intro .banner--subtitulo {
-    font-size: 3rem;
+    font-size: 1.7142857143rem;
   }
 }
 @media screen and (max-width: 490px) {
-  .intro .banner-summary .banner .banner--titulo {
-    font-size: 2rem;
+  .intro {
+    background-color: #F0E4F2;
   }
-  .intro .banner-summary .banner .banner--subtitulo {
-    font-size: 1.0909090909rem;
+  .intro .banner-summary {
+    gap: 40px;
   }
-  .intro .banner-summary .summary {
-    max-width: 200px;
-  }
-  .intro .banner-summary .summary .summary--paragrafo {
-    font-size: 0.75rem;
+  .intro .banner-summary .banner {
+    gap: 40px;
   }
 }
 .page-wrapper {

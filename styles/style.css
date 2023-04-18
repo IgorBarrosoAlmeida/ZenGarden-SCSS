@@ -230,6 +230,15 @@ html, body {
   list-style-type: circle;
 }
 
+@media screen and (max-width: 490px) {
+  .page-wrapper .main {
+    display: block;
+  }
+  .page-wrapper .main div {
+    max-width: 100%;
+    margin: 40px auto;
+  }
+}
 .membros {
   width: 70%;
   margin: 50px auto;

@@ -95,63 +95,69 @@ html, body {
   }
 }
 .intro {
-  background-image: url(../../imagens/banner2.png);
+  /*background-image: url(../../imagens/banner2.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100%;
-  height: 83vh;
+  background-size: 100%;*/
   position: relative;
+  height: 87vh;
+  width: 100vw;
 }
 .intro .banner-summary {
+  height: 100%;
+}
+.intro .banner-summary .intro--img {
+  width: 100%;
+  height: 100%;
+}
+.intro .banner-summary .banner--escrita {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   position: absolute;
-  top: 10vw;
+  top: 10vh;
   left: 20vw;
 }
-.intro .banner-summary .banner .banner--titulo {
+.intro .banner-summary .banner--escrita .banner--titulo {
   color: #535A73;
-  font-size: 4.5rem;
+  font-size: 5.25rem;
 }
-.intro .banner-summary .banner .banner--subtitulo {
+.intro .banner-summary .banner--escrita .banner--subtitulo {
   color: #535A73;
   font-size: 3rem;
 }
-.intro .banner-summary .summary {
+.intro .banner-summary .banner--escrita .summary {
   margin-top: 1rem;
   max-width: 500px;
 }
-.intro .banner-summary .summary .summary--paragrafo {
+.intro .banner-summary .banner--escrita .summary .summary--paragrafo {
   color: #535A73;
-  font-size: 1.5rem;
+  font-size: 1.7142857143rem;
   font-weight: 100;
 }
-.intro .banner-summary .summary .summary--paragrafo .summary--link {
+.intro .banner-summary .banner--escrita .summary .summary--paragrafo .summary--link {
   text-decoration: none;
   color: #535A73;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 830px) {
   .intro {
     background: url(../../imagens/banner-tablet-celular2.png);
     height: 85vh;
   }
   .intro .banner-summary {
     position: static;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    align-items: center;
   }
-  .intro .banner-summary .banner {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 80px;
-  }
-  .intro .banner-summary .summary {
+  .intro .banner-summary .banner--escrita {
+    gap: 10px;
+    left: 14vw;
+    max-width: 70%;
     padding: 10px;
   }
-  .intro .banner-summary .summary .summary--paragrafo {
+  .intro .banner-summary .banner--escrita .summary {
+    padding: 10px;
+  }
+  .intro .banner-summary .banner--escrita .summary .summary--paragrafo {
     font-size: 1.7142857143rem;
   }
 }
@@ -159,11 +165,17 @@ html, body {
   .intro {
     background-color: #F0E4F2;
   }
-  .intro .banner-summary {
+  .intro .banner-summary .banner--escrita {
     gap: 40px;
   }
-  .intro .banner-summary .banner {
-    gap: 40px;
+  .intro .banner-summary .banner--escrita .banner--titulo {
+    font-size: 4.5rem;
+  }
+  .intro .banner-summary .banner--escrita .banner--subtitulo {
+    font-size: 2.4rem;
+  }
+  .intro .banner-summary .banner--escrita .summary .summary--paragrafo {
+    font-size: 1.5rem;
   }
 }
 .page-wrapper {

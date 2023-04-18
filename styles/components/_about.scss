@@ -1,6 +1,65 @@
 @import '../abstract/variaveis';
 
-.main {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.page-wrapper {
+    font-size: $tamanho-do-texto / 2.7;
+    .main {
+        margin: 50px 8% 0 8%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: $roxo;
+        div {
+            max-width: 45%;
+            margin-bottom: 30px;
+            h3 {
+                font-size: $tamanho-do-texto / 1.9;
+                padding-bottom: 20px;
+            }
+            p {
+                line-height: 1.5;
+                a:hover {
+                    color: #5f03bb;
+                }
+            }
+        }
+        .main--requirements {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+    aside {
+        margin: 20px 8% 20px 8%;
+        .wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            div {
+                width: 270px;
+                max-height: 300px;
+                background-color: $roxo;
+                color: $branco;
+                border-radius: 25px;
+                padding: 15px 20px 15px 30px;
+                line-height: 1.5;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                h3 {
+                    font-size: $tamanho-do-texto / 1.9;
+                    padding-bottom: 7px;
+                    padding-left: 10px;
+                }
+                a {
+                    color: $branco;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                        color: #bd90eb;
+                    }
+                }
+                li {
+                    list-style-type: circle;
+                }
+            }
+        }
+    }
 }

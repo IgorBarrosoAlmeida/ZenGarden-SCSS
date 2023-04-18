@@ -163,9 +163,68 @@ html, body {
     font-size: 0.75rem;
   }
 }
-.main {
-  display: grid;
-  grid-template-columns: 50% 50%;
+.page-wrapper {
+  font-size: 1.1111111111rem;
+}
+.page-wrapper .main {
+  margin: 50px 8% 0 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #535A73;
+}
+.page-wrapper .main div {
+  max-width: 45%;
+  margin-bottom: 30px;
+}
+.page-wrapper .main div h3 {
+  font-size: 1.5789473684rem;
+  padding-bottom: 20px;
+}
+.page-wrapper .main div p {
+  line-height: 1.5;
+}
+.page-wrapper .main div p a:hover {
+  color: #5f03bb;
+}
+.page-wrapper .main .main--requirements {
+  max-width: 100%;
+  text-align: center;
+}
+.page-wrapper aside {
+  margin: 20px 8% 20px 8%;
+}
+.page-wrapper aside .wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.page-wrapper aside .wrapper div {
+  width: 270px;
+  max-height: 300px;
+  background-color: #535A73;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 15px 20px 15px 30px;
+  line-height: 1.5;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.page-wrapper aside .wrapper div h3 {
+  font-size: 1.5789473684rem;
+  padding-bottom: 7px;
+  padding-left: 10px;
+}
+.page-wrapper aside .wrapper div a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.page-wrapper aside .wrapper div a:hover {
+  text-decoration: underline;
+  color: #bd90eb;
+}
+.page-wrapper aside .wrapper div li {
+  list-style-type: circle;
 }
 
 .membros {

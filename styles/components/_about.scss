@@ -8,7 +8,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         color: $roxo;
-        div {
+        .main--preamble, .main--participation, .main--explanation, .main--benefits, .main--requirements {
             max-width: 45%;
             margin-bottom: 30px;
             h3 {
@@ -33,7 +33,7 @@
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            div {
+            .design-selection, .design-archives, .zen-resources {
                 width: 270px;
                 max-height: 300px;
                 background-color: $roxo;
@@ -43,7 +43,7 @@
                 line-height: 1.5;
                 flex-wrap: wrap;
                 margin-top: 20px;
-                h3 {
+                .aside--title {
                     font-size: $tamanho-do-texto / 1.9;
                     padding-bottom: 7px;
                     padding-left: 10px;
@@ -68,7 +68,7 @@
     .page-wrapper {
         .main {
             display: block;
-            div {
+            .main--preamble, .main--participation, .main--explanation, .main--benefits, .main--requirements {
                 max-width: 100%;
                 margin: 40px auto;
             }

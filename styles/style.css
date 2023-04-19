@@ -188,18 +188,18 @@ html, body {
   justify-content: space-between;
   color: #535A73;
 }
-.page-wrapper .main div {
+.page-wrapper .main .main--preamble, .page-wrapper .main .main--participation, .page-wrapper .main .main--explanation, .page-wrapper .main .main--benefits, .page-wrapper .main .main--requirements {
   max-width: 45%;
   margin-bottom: 30px;
 }
-.page-wrapper .main div h3 {
+.page-wrapper .main .main--preamble h3, .page-wrapper .main .main--participation h3, .page-wrapper .main .main--explanation h3, .page-wrapper .main .main--benefits h3, .page-wrapper .main .main--requirements h3 {
   font-size: 1.5789473684rem;
   padding-bottom: 20px;
 }
-.page-wrapper .main div p {
+.page-wrapper .main .main--preamble p, .page-wrapper .main .main--participation p, .page-wrapper .main .main--explanation p, .page-wrapper .main .main--benefits p, .page-wrapper .main .main--requirements p {
   line-height: 1.5;
 }
-.page-wrapper .main div p a:hover {
+.page-wrapper .main .main--preamble p a:hover, .page-wrapper .main .main--participation p a:hover, .page-wrapper .main .main--explanation p a:hover, .page-wrapper .main .main--benefits p a:hover, .page-wrapper .main .main--requirements p a:hover {
   color: #5f03bb;
 }
 .page-wrapper .main .main--requirements {
@@ -214,7 +214,7 @@ html, body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.page-wrapper aside .wrapper div {
+.page-wrapper aside .wrapper .design-selection, .page-wrapper aside .wrapper .design-archives, .page-wrapper aside .wrapper .zen-resources {
   width: 270px;
   max-height: 300px;
   background-color: #535A73;
@@ -225,20 +225,20 @@ html, body {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-.page-wrapper aside .wrapper div h3 {
+.page-wrapper aside .wrapper .design-selection .aside--title, .page-wrapper aside .wrapper .design-archives .aside--title, .page-wrapper aside .wrapper .zen-resources .aside--title {
   font-size: 1.5789473684rem;
   padding-bottom: 7px;
   padding-left: 10px;
 }
-.page-wrapper aside .wrapper div a {
+.page-wrapper aside .wrapper .design-selection a, .page-wrapper aside .wrapper .design-archives a, .page-wrapper aside .wrapper .zen-resources a {
   color: #FFFFFF;
   text-decoration: none;
 }
-.page-wrapper aside .wrapper div a:hover {
+.page-wrapper aside .wrapper .design-selection a:hover, .page-wrapper aside .wrapper .design-archives a:hover, .page-wrapper aside .wrapper .zen-resources a:hover {
   text-decoration: underline;
   color: #bd90eb;
 }
-.page-wrapper aside .wrapper div li {
+.page-wrapper aside .wrapper .design-selection li, .page-wrapper aside .wrapper .design-archives li, .page-wrapper aside .wrapper .zen-resources li {
   list-style-type: circle;
 }
 
@@ -246,7 +246,7 @@ html, body {
   .page-wrapper .main {
     display: block;
   }
-  .page-wrapper .main div {
+  .page-wrapper .main .main--preamble, .page-wrapper .main .main--participation, .page-wrapper .main .main--explanation, .page-wrapper .main .main--benefits, .page-wrapper .main .main--requirements {
     max-width: 100%;
     margin: 40px auto;
   }

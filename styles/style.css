@@ -88,7 +88,7 @@ html, body {
 }
 @media screen and (max-width: 480px) {
   .rodape {
-    gap: 12px;
+    gap: 5px;
   }
   .rodape .rodape--item {
     font-size: 1rem;
@@ -188,18 +188,18 @@ html, body {
   justify-content: space-between;
   color: #535A73;
 }
-.page-wrapper .main .main--preamble, .page-wrapper .main .main--participation, .page-wrapper .main .main--explanation, .page-wrapper .main .main--benefits, .page-wrapper .main .main--requirements {
+.page-wrapper .main .main-div {
   max-width: 45%;
   margin-bottom: 30px;
 }
-.page-wrapper .main .main--preamble h3, .page-wrapper .main .main--participation h3, .page-wrapper .main .main--explanation h3, .page-wrapper .main .main--benefits h3, .page-wrapper .main .main--requirements h3 {
+.page-wrapper .main .main-div h3 {
   font-size: 1.5789473684rem;
   padding-bottom: 20px;
 }
-.page-wrapper .main .main--preamble p, .page-wrapper .main .main--participation p, .page-wrapper .main .main--explanation p, .page-wrapper .main .main--benefits p, .page-wrapper .main .main--requirements p {
+.page-wrapper .main .main-div p {
   line-height: 1.5;
 }
-.page-wrapper .main .main--preamble p a:hover, .page-wrapper .main .main--participation p a:hover, .page-wrapper .main .main--explanation p a:hover, .page-wrapper .main .main--benefits p a:hover, .page-wrapper .main .main--requirements p a:hover {
+.page-wrapper .main .main-div p a:hover {
   color: #5f03bb;
 }
 .page-wrapper .main .main--requirements {

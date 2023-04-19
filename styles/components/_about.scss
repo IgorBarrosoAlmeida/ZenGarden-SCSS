@@ -1,7 +1,7 @@
 @import '../abstract/variaveis';
 
 .page-wrapper {
-    font-size: $tamanho-do-texto / 2.7;
+    font-size: calc($tamanho-do-texto / 2.7);
     .main {
         margin: 50px 8% 0 8%;
         display: flex;
@@ -12,7 +12,7 @@
             max-width: 45%;
             margin-bottom: 30px;
             h3 {
-                font-size: $tamanho-do-texto / 1.9;
+                font-size: calc($tamanho-do-texto / 1.9);
                 padding-bottom: 20px;
             }
             p {
@@ -44,7 +44,7 @@
                 flex-wrap: wrap;
                 margin-top: 20px;
                 .aside--title {
-                    font-size: $tamanho-do-texto / 1.9;
+                    font-size: calc($tamanho-do-texto / 1.9);
                     padding-bottom: 7px;
                     padding-left: 10px;
                 }

@@ -101,7 +101,7 @@ html, body {
   background-size: 100%;*/
   position: relative;
   height: 87vh;
-  width: 100vw;
+  width: 100%;
 }
 .intro .banner-summary {
   height: 100%;

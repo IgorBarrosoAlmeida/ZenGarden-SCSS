@@ -1,4 +1,4 @@
-# Chat
+# ZenGarden-SCSS
 
 O projeto Zen Garden se trata de um modelo muito utilizado para o primeiro contato das pessoas com o HTML e o CSS. Nesse projeto utilizamos para a estilização do HTML disponibilizado a vertente do CSS, o SCSS. SCSS se trata de uma versão mais sintatica do CSS comum, que tem como objetivo deixar os códigos mais bonitos e por consequência melhorar a manutenibilidade.
 
